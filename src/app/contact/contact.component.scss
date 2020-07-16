@@ -1,0 +1,77 @@
+.section-contact-us {
+    margin-bottom: 50px;
+}
+.section-contact-us .info-content {
+    margin-bottom: 30px;
+    padding: 5px 30px 40px;
+    min-height: 435px;
+    text-align: center;
+    color: #0487cc;
+}
+.h2-section  {
+    text-align: center;
+    padding: 10px;
+    color: #0487cc;
+  }
+.section-contact-us h3 {
+    margin-bottom: 35px;
+}
+.section h3 {
+    font-size: 20px;
+}
+.section-contact-us .info-content div {
+    margin-bottom: 25px;
+}
+.section-contact-us .info-text {
+    display: inline-block;
+    padding: 10px 15px;
+    vertical-align: top;
+    width: calc(100% - 66px);
+    border-radius: 3px;
+    min-height: 42px;
+}
+.loading-overlay .spinner > div, .section-about .li-social-links a:hover,   .section-contact-us input[type="submit"], .section-contact-us .info-icon, .section-contact-us .social-links, .menu, .menu .open-menu, .more-blog .pagination-blog a.active, .more-blog .pagination-blog a:hover, .single-blog .comments .reply, .single-blog .leave-comment input[type="submit"], .single-blog .tags li a {
+    background-color: #0487cc;
+}
+.section-contact-us .social-links {
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,.2), 0 0 15px rgba(0,0,0,.15);
+}
+ul {
+    list-style: none;
+}
+.section-contact-us .social-links li {
+    display: inline-block;
+    margin: 30px;
+    width: 30px;
+    opacity: .85;
+    transition: all .2s;
+}
+a, a:hover, a:focus {
+    text-decoration: none;
+    color: inherit;
+}
+.section-contact-us .info-icon {
+    display: inline-block;
+    margin-right: 13px;
+    padding-top: 10px;
+    padding-right: 2px;
+    width: 46px;
+    height: 46px;
+    text-align: center;
+    border-radius: 3px;
+}
+.section-about .li-social-links a:hover,  .section-contact-us .info-icon, .section-contact-us .info-text, .section-contact-us .social-links li, .menu, .section-contact-us input[type="submit"], .more-blog .pagination-blog a.active, .more-blog .pagination-blog a:hover, .single-blog .comments .reply, .single-blog .leave-comment input[type="submit"], .single-blog .tags li a {
+    color: #ffffff;
+}
+.section-contact-us .info-text {
+    display: inline-block;
+    padding: 10px 15px;
+    vertical-align: top;
+    width: calc(100% - 66px);
+    border-radius: 3px;
+    min-height: 42px;
+}
+.section-skills .progress,  .section-contact-us input[type="submit"]:hover, .section-contact-us .info-text, .single-blog .line, .single-blog .leave-comment input[type="submit"]:hover, .single-blog .tags li a:hover {
+    background-color: #757575;
+}

@@ -1,0 +1,35 @@
+
+
+@import '~@angular/material/theming';
+@include mat-core();
+$profile-angular-project-primary: mat-palette($mat-indigo);
+$profile-angular-project-accent: mat-palette($mat-pink, A200, A100, A400);
+
+
+$profile-angular-project-warn: mat-palette($mat-red);
+
+
+$profile-angular-project-theme: mat-light-theme($profile-angular-project-primary, $profile-angular-project-accent, $profile-angular-project-warn);
+
+
+@include angular-material-theme($profile-angular-project-theme);
+@import '~@angular/material/theming';
+@include mat-core();
+
+
+$profile-angular-project-primary: mat-palette($mat-indigo);
+$profile-angular-project-accent: mat-palette($mat-pink, A200, A100, A400);
+$profile-angular-project-warn: mat-palette($mat-red);
+$profile-angular-project-theme: mat-light-theme($profile-angular-project-primary, $profile-angular-project-accent, $profile-angular-project-warn);
+
+@include angular-material-theme($profile-angular-project-theme);
+@import "../node_modules/font-awesome/css/font-awesome.min.css";
+
+
+
+html, body {
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
